@@ -1,0 +1,35 @@
+샘플
+https://gangnam.eminwon.seoul.kr/emwp/gov/mogaha/ntis/web/caf/mwwd/action/CafMwWdOpenAction.do?method=selectListMwOpn&menu_id=CAFOPNWebMwOpenL&jndinm=CafMwWdOpenEJB&methodnm=selectListMwOpn&context=NTIS
+=>
+url + /emwp/gov/mogaha/ntis/web/caf/mwwd/action/CafMwWdOpenAction.do?method=selectListMwOpn&menu_id=CAFOPNWebMwOpenL&jndinm=CafMwWdOpenEJB&methodnm=selectListMwOpn&context=NTIS
+
+/emwp/gov/mogaha/ntis/web/caf/mwwd/action/CafMwWdOpenAction.do?method=selectListMwOpn&menu_id=CAFOPNWebMwOpenL&jndinm=CafMwWdOpenEJB&methodnm=selectListMwOpn&context=NTIS
+
+
+리스팅
+javascript:document.frmObj.pageIndex.value=2;goPage()
+
+<form name="frmObj" method="post" autocomplete="off" action="/emwp/gov/mogaha/ntis/web/caf/mwwd/action/CafMwWdOpenAction.do"></form>
+
+파라미터
+method:selectListMwOpn
+jndinm:CafMwWdOpenEJB
+methodnm:selectListMwOpn
+context:NTIS
+mw_take_no:
+mw_aplct_pwd:
+strt_date:20160127
+end_date:20160203
+pageIndex:3
+pageSize:20
+field:mw_date
+keyword:
+pageSize1:20
+strt_yy:2016
+strt_mm:01
+strt_dd:27
+end_yy:2016
+end_mm:02
+end_dd:03
+pageSize2:20
+
