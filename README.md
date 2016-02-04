@@ -8,7 +8,7 @@ localhost:9200/scrapy/_search?q=*&pretty
 * 단일 사이트 풀 크롤링, 오토 쓰로틀링 및 딜래이 설정
 * 에러 및 로깅 처리
 * [LinkExtrator](http://doc.scrapy.org/en/1.0/topics/link-extractors.html#module-scrapy.linkextractors.lxmlhtml) 검토
-* 자동화(참조. [scrapyd](https://github.com/scrapy/scrapyd),[Jobs: pausing and resuming crawls],(http://doc.scrapy.org/en/1.0/topics/jobs.html))
+* 자동화(참조. [scrapyd](https://github.com/scrapy/scrapyd),[Jobs: pausing and resuming crawls](http://doc.scrapy.org/en/1.0/topics/jobs.html))
 * Lucene 연계 방법 검토(Solr은 연계할 수 있는듯.하지만 Lucene은???)
 * elasticsearch 연동 시 문제점 검토
 * broad crawling 구현(참조.[broad crawl](http://doc.scrapy.org/en/1.0/topics/broad-crawls.html),[redis를 이용한 크롤링 분산처리](https://getpocket.com/a/read/1100339970),[Distributed crawls](http://doc.scrapy.org/en/1.0/topics/practices.html))
