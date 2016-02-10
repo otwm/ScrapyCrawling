@@ -9,7 +9,7 @@ import scrapy
 from pip._vendor.html5lib import serializer
 
 
-class ScrapycrwalingItem(scrapy.Item):
+class CivilAppeal(scrapy.Item):
     no = scrapy.Field()
 
     #접수
@@ -58,4 +58,4 @@ class ScrapycrwalingItem(scrapy.Item):
     #처리근거
     #reason
     #처리내용
-    content = scrapy.Field()
+    #content = scrapy.Field()

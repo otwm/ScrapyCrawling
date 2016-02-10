@@ -19,3 +19,6 @@ localhost:9200/scrapy/_search?q=*&pretty
 ## 기타 주요 참조
 * [Architecture overview](http://doc.scrapy.org/en/1.0/topics/architecture.html)
 * [Core Api](http://doc.scrapy.org/en/1.0/topics/api.html)
+
+## cluster 환경 설정
+* [install redis by docker](https://docs.docker.com/engine/examples/running_redis_service/) 
